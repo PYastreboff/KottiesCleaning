@@ -353,9 +353,10 @@ section {
 }
 
 #logo img {
-    max-height: 22px;
+    max-height: 40px;
     vertical-align: middle;
     margin-right: 15px;
+    margin-top: .5rem;
 }
 
 #navigation-logo {
@@ -2328,5 +2329,11 @@ blockquote {
 }
 
 
+
+/* EXTRA */
+
+.pdt {
+    padding-top: 5rem;
+}
 
 
