@@ -1159,6 +1159,14 @@ blockquote {
         border-bottom: 10px solid transparent;
     }
 
+    .phone-dissapear {
+        display: none;
+    }
+
+    .icon-block {
+        max-width: 50%;
+    }
+
 }
 
 /* Gallery Styling */

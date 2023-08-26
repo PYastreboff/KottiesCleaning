@@ -137,7 +137,16 @@ a:hover, #header.nav-solid nav a:hover {
 
 #banner {
     background: url("../images/hero.svg") no-repeat center top;
-    background-size:cover;
+    background-size: cover;
+}
+
+/* background image for phone */
+@media only screen and (max-width: 1024px) { 
+    #banner {
+        background-color: #f9f9fd;
+        background: #f9f9fd;
+    }
+        
 }
 
 
@@ -293,6 +302,7 @@ h6 {
 .button:hover,  input[type="submit"]:hover {
     border-color:var(--blue-accent);
     color:var(--blue-accent);
+    cursor: pointer;
 }
 
 
@@ -320,6 +330,7 @@ h6 {
 #banner .button:hover {
     color: var(--blue-accent);
     border-color: var(--blue-accent);
+    cursor: pointer;
 }
 
 
