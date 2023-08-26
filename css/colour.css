@@ -146,6 +146,11 @@ a:hover, #header.nav-solid nav a:hover {
         background-color: #f9f9fd;
         background: #f9f9fd;
     }
+    
+    .fadeInUp {
+        animation: none;
+        transition: none;
+    }
         
 }
 
