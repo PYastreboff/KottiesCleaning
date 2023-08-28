@@ -7,15 +7,16 @@
 @import url("https://fonts.googleapis.com/css?family=Montserrat");
 
 .faq-container h1 {
-  text-align: center;
-  margin: 2rem 0;
-  font-size: 2.5rem;
+    text-align: center;
+    margin: 2rem 0;
+    font-size: 2.5rem;
 }
 
 .accordion {
-  width: 90%;
-  max-width: 99vw;
-  margin: 2rem auto;
+    width: 90%;
+    max-width: 99vw;
+    margin: 0rem auto;
+    margin-top: none;
 }
 
 .accordion-item {
@@ -31,42 +32,62 @@
 }
 
 .accordion-item-header {
-  padding: 0.5rem 3rem 0.5rem 1rem;
-  min-height: 3.5rem;
-  line-height: 1.25rem;
-  font-weight: bold;
-  display: flex;
-  align-items: center;
-  position: relative;
-  cursor: pointer;
+    padding: 0.5rem 3rem 0.5rem 1rem;
+    min-height: 3.5rem;
+    line-height: 1.25rem;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    position: relative;
+    cursor: pointer;
 }
 .accordion-item-header::after {
-  content: "\002B";
-  font-size: 2rem;
-  position: absolute;
-  right: 1rem;
+    content: "\002B";
+    font-size: 2rem;
+    position: absolute;
+    right: 1rem;
 }
 
 .accordion-item-header.active::after {
-  content: "\2212";
+    content: "\2212";
 }
 
 .accordion-item-body {
-  max-height: 0;
-  overflow: hidden;
-  transition: max-height 0.2s ease-out;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.2s ease-out;
 }
 
 .accordion-item-body-content {
-  padding: 1rem;
-  line-height: 1.5rem;
-  border-top: 1px solid;
-  border-image: linear-gradient(to right, transparent, #34495e, transparent) 1;
-  text-align: left;
+    padding: 1rem;
+    line-height: 1.5rem;
+    border-top: 1px solid;
+    border-image: linear-gradient(to right, transparent, #34495e, transparent) 1;
+    text-align: left;
 }
 
 @media (max-width: 767px) {
-  html {
-    font-size: 14px;
-  }
+    .faq-container {
+        padding: 0px;
+        margin: 0px;
+    }
+
+    .text-center {
+        margin: 0px;
+    }
+
+    .accordion {
+        width: 90vw;
+        min-width: 90vw;
+    }
+
+    .section-heading, .accordion {
+        width: 100vw;
+    }
+
+    .accordion {
+        padding: 5vw;
+    }
+
 }
+
