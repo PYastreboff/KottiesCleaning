@@ -760,6 +760,7 @@ h6 {
 
 .section-heading {
     padding: 0 0 15px 0;
+    max-width: calc(100vw - 30px);
 }
 
 .section-subtitle {
