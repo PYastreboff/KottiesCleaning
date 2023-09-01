@@ -147,7 +147,7 @@ a:hover, #header.nav-solid nav a:hover {
 }
 
 /* background image for phone */
-@media only screen and (max-width: 1024px) { 
+@media only screen and (max-width: 700px) { 
     #banner {
         /*background-color: #f9f9fd;
         background: #f9f9fd;*/
@@ -157,9 +157,9 @@ a:hover, #header.nav-solid nav a:hover {
     }
 
     #services {
-        background-image: url('../images/house-interior-3-4.jpg');
+        background-image: url('../images/house-interior-3-5.jpg');
         background-size: cover;
-        background-position: top left;
+        /*background-position: 100% left;*/
     }
     
     .fadeInUp {
@@ -232,7 +232,7 @@ body {
     font-family: 'Open Sans', sans-serif, Arial, Helvetica;
     font-size: 16px;
     font-weight:300;
-    color:#9c9c9c;
+    color:#6f6f6f;
 }
 
 /* Testimonial */
