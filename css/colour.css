@@ -216,6 +216,7 @@ body {
     font-size:18px;
     font-weight:300;
     color:#111;
+    text-shadow: 0px 0px 6px #FFFFFF;
 }
 
 
@@ -232,7 +233,7 @@ body {
     font-family: 'Open Sans', sans-serif, Arial, Helvetica;
     font-size: 16px;
     font-weight:300;
-    color:#6f6f6f;
+    color:#9c9c9c;
 }
 
 /* Testimonial */
