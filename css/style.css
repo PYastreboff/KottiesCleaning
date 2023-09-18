@@ -819,6 +819,9 @@ h6 {
 
 .icon-block {
     position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
 }
 
 .icon-block h4 {
@@ -1148,8 +1151,15 @@ blockquote {
     }
 }
 
+.in-price-block {
+    max-width: 25%;
+}
+
 /* handling phones and small screens */
 @media only screen and (max-width: 1024px) {
+    .in-price-block {
+        max-width: 100%;
+    }
     .featherlight .featherlight-content {
         /* dimensions: maximize lightbox with for small screens */
         margin-left: 10px;
@@ -1489,7 +1499,7 @@ blockquote {
 
 .price {
     display: inline-block;
-    font-size: 62px;
+    font-size: 40px;
     font-weight: 700;
     position: relative;
 }
@@ -2353,4 +2363,13 @@ blockquote {
     padding-top: 5rem;
 }
 
+.pdt1 {
+    padding-top: .5rem;
+}
 
+.service-boxes {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
