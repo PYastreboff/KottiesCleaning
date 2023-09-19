@@ -1607,6 +1607,8 @@ blockquote {
     left: 0;
     right: 0;
     bottom: 0;
+    width: 100vw;
+    height: 100vh;
     background-color: #fff; /* change if the mask should have another color then white */
     z-index: 99999; /* makes sure it stays on top */
 }
@@ -1615,8 +1617,8 @@ blockquote {
     width: 110px;
     height: 110px;
     position: absolute;
-    left: 50vw; /* centers the loading animation horizontally one the screen */
-    top: 50vh; /* centers the loading animation vertically one the screen */
+    left: calc(50vw + 32px); /* centers the loading animation horizontally one the screen */
+    top: calc(50vh + 38px); /* centers the loading animation vertically one the screen */
     background-position: center;
     margin: -55px 0 0 -55px; /* is width and height divided by two */
     text-align: center;
