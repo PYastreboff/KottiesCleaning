@@ -58,6 +58,11 @@ p {
     max-width: 100%;
 }
 
+.main-top, .main-bottom {
+    display: none;
+}
+
+
 a {
     text-decoration: none;
     line-height: inherit;
@@ -1187,6 +1192,16 @@ blockquote {
         border: 10px solid #fff;
     }
 
+    .main-bottom {
+        display: flex;
+        margin-top: 5px;
+    }
+    
+    .main-top {
+        display: flex;
+        margin-bottom: 0px;
+    }
+
 }
 
 /* Gallery Styling */
@@ -2251,7 +2266,7 @@ blockquote {
     #header .row {
         padding: 0 !important;
     }
-
+    /*
     #header aside {
         display: inline-block;
         position: absolute;
@@ -2260,6 +2275,7 @@ blockquote {
         padding-top:3px;
         padding-right: 5px;
     }
+    */
 
     #header.nav-solid aside {
         top: 20px;
@@ -2371,5 +2387,13 @@ blockquote {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    align-items: center;
+    align-items: flex-start;
+}
+
+.pricing-block:hover {
+    cursor: pointer;
+}
+
+.navbar-aside p {
+    margin: 5px;
 }
