@@ -2150,6 +2150,10 @@ blockquote {
 ===============================*/
 @media (max-width: 480px) {
 
+    .navbar-aside {
+        display: none;
+    }
+
     #wrapper {
         margin:0;
         padding:0;
@@ -2242,6 +2246,9 @@ blockquote {
 /* Mobile to Tablet Portrait
 ===============================*/
 @media (min-width: 480px) and (max-width: 767px) {
+    .navbar-aside {
+        display: none;
+    }
 
     #wrapper {
         margin:0;
@@ -2325,6 +2332,10 @@ blockquote {
 ===============================*/
 @media (min-width: 768px) and (max-width: 1024px) {
 
+    .navbar-aside {
+        display: none;
+    }
+
     #wrapper {
         margin:0;
         padding:0;
@@ -2340,7 +2351,7 @@ blockquote {
 
     /*-----------------Header Elements-----------------*/
     #header aside {
-        display: inline-block;
+        display: none;
         position: absolute;
         top: 40px;
         right: 60px;

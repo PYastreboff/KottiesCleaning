@@ -377,3 +377,28 @@ h6 {
     color: black;
 }
 
+/*
+.navbar-aside {
+    background-color: yellow;
+    border-radius: .5rem;
+    color: black;
+    text-align: left;
+    padding: .2rem 0 .2rem 0;
+    max-height: 71px;
+    margin: 0px;
+}
+*/
+
+.navbar-aside a:hover {
+    cursor: pointer;
+}
+
+.navbar-aside p {
+    font-size: .75rem;
+}
+.navbar-aside a p {
+    font-size: 1rem;
+    margin-bottom: 0;
+    margin-top: .45rem;
+    color: var(--blue-accent);
+}
