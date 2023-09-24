@@ -2411,3 +2411,9 @@ blockquote {
 .navbar-aside p {
     margin: 5px;
 }
+
+.bottom-nav {
+    display: flex;
+    justify-content: baseline;
+    align-items: last baseline;
+}
