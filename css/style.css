@@ -2424,3 +2424,39 @@ blockquote {
     justify-content: baseline;
     align-items: last baseline;
 }
+
+.review-arrows {
+    display: inline-flex;
+    margin-top: 1.5rem;
+}
+
+.review-arrow {
+    padding: 1rem 1.3rem;
+    background-color: #ccc;
+    margin: .2rem;
+    color: white;
+    font-weight: bold;
+    transition: transform 0.3s ease;
+}
+
+.review-arrow:hover {
+    cursor: pointer;
+}
+
+.review-arrow-left {
+    margin-right: .25rem;
+}
+
+.review-arrow-right {
+    margin-left: .25rem;
+}
+
+.review-arrow-left:hover {
+    transform: translateX(-10px);
+    margin-right: .5rem;
+}
+
+.review-arrow-right:hover {
+    transform: translateX(10px);
+    margin-left: .5rem;
+}
