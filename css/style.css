@@ -2460,3 +2460,7 @@ blockquote {
     transform: translateX(10px);
     margin-left: .5rem;
 }
+
+.main-top b, .main-bottom {
+    content: "";
+}
