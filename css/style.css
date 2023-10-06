@@ -2464,3 +2464,7 @@ blockquote {
 .main-top b, .main-bottom {
     content: "";
 }
+
+.section-heading h2 {
+    width: 60%;
+}
