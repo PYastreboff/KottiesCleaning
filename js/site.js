@@ -112,7 +112,7 @@ const reviews = [
 		footer: "Lachlan M."
 	},
 	{
-		content: "Kotties Cleaning has been a game-changer for my busy schedule. I can finally enjoy a clean home without the stress of cleaning it myself. A must-try service!",
+		content: "Kotties Cleaning allows me to enjoy my weekends without the stress of having to clean myself. A must try service!",
 		footer: "Mellissa W."
 	},
 	{

@@ -147,7 +147,7 @@ a:hover, #header.nav-solid nav a:hover {
 }
 
 /* background image for phone */
-@media only screen and (max-width: 700px) { 
+@media only screen and (max-width: 1020px) { 
     #banner {
         /*background-color: #f9f9fd;
         background: #f9f9fd;*/
@@ -157,9 +157,9 @@ a:hover, #header.nav-solid nav a:hover {
     }
 
     #services {
-        background-image: url('../images/house-interior-3-5.jpg');
+        background-image: url('../images/house-interior-3-6.jpg');
         background-size: cover;
-        /*background-position: 100% left;*/
+        background-position: -100px left;
     }
     
     .fadeInUp {
